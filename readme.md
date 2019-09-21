@@ -1,6 +1,6 @@
 # 封装react-native-image-zoom-viewer
 
-## 安装
+## 安装依赖
 	- npm install --save react-native-image-zoom-viewer
 	- npm install --save react-native-image-browser
 

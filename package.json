@@ -1,25 +1,53 @@
 {
-  "name": "uat-image-browser",
-  "version": "1.0.1",
-  "description": "查看大图",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "uat-image-browser",
+  "_id": "uat-image-browser@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-BUA4zeHU7q6O1QfO3VOURu5ZwQRNkWLN2LvjTq4nRx477PP9HqkW141e0S/kq9G9xLxDtnsVx0hdKw++7Zv6JA==",
+  "_location": "/uat-image-browser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "uat-image-browser",
+    "name": "uat-image-browser",
+    "escapedName": "uat-image-browser",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/uat-image-browser/-/uat-image-browser-1.0.1.tgz",
+  "_shasum": "2cf4a1d2a6628cbd5ad4b304122d41df7446603a",
+  "_spec": "uat-image-browser",
+  "_where": "/Users/mark/Desktop/mark/npmExample",
+  "author": {
+    "name": "mark"
+  },
+  "bugs": {
+    "url": "https://github.com/mark5566/uat-image-browser/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native-image-zoom-viewer": "^2.2.26"
+  },
+  "deprecated": false,
+  "description": "查看大图",
+  "homepage": "https://github.com/mark5566/uat-image-browser#readme",
+  "keywords": [
+    "查看大图"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "uat-image-browser",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mark5566/uat-image-browser.git"
   },
-  "keywords": [
-    "查看大图"
-  ],
-  "author": "mark",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mark5566/uat-image-browser/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/mark5566/uat-image-browser#readme",
-  "dependencies": {
-    "react-native-image-zoom-viewer": "^2.2.26"
-  }
+  "version": "1.0.1"
 }

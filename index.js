@@ -21,6 +21,7 @@ type Props = {
 type State = {
 	show : Boolean,
 	imgs : IImageInfo[],
+	index : Number,
 };
 
 export class ImageBrowser extends Component <Props,State>{
@@ -29,11 +30,12 @@ export class ImageBrowser extends Component <Props,State>{
 		state:State={
 			show :false,
 			imgs :[],
+			index: 0,
 		}
 
-		showWithImg = (imgs:IImageInfo[])=>{
+		showWithImg = (index:Number,imgs:IImageInfo[])=>{
 			this.setState({
-				show : true,imgs:imgs
+				show : true,imgs:imgs,index:index,
 			})
 		}
 
@@ -49,11 +51,17 @@ export class ImageBrowser extends Component <Props,State>{
 				const {
 					show,
 					imgs,
+					index
 				} = this.state;
 				return (
 						<Modal
 							visible={show}>
-								<ImageViewer {...this.props} imageUrls={imgs}/>
+								<ImageViewer 
+									{...this.props} 
+									imageUrls={imgs} 
+									index={index}
+									onClick={this.hide}
+									/>
 						</Modal>
 				)
 		}
