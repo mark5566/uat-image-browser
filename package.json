@@ -1,5 +1,5 @@
 {
-  "name": "react-native-image-browser",
+  "name": "uat-image-browser",
   "version": "1.0.0",
   "description": "查看大图",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark5566/react-native-image-browser.git"
+    "url": "git+https://github.com/mark5566/uat-image-browser.git"
   },
   "keywords": [
     "查看大图"
@@ -16,9 +16,9 @@
   "author": "mark",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mark5566/react-native-image-browser/issues"
+    "url": "https://github.com/mark5566/uat-image-browser/issues"
   },
-  "homepage": "https://github.com/mark5566/react-native-image-browser#readme",
+  "homepage": "https://github.com/mark5566/uat-image-browser#readme",
   "dependencies": {
     "react-native-image-zoom-viewer": "^2.2.26"
   }
