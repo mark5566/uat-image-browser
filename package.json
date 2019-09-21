@@ -1,6 +1,6 @@
 {
   "name": "uat-image-browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "查看大图",
   "main": "index.js",
   "scripts": {
