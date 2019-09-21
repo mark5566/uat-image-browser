@@ -1,0 +1,25 @@
+{
+  "name": "react-native-image-browser",
+  "version": "1.0.0",
+  "description": "查看大图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark5566/react-native-image-browser.git"
+  },
+  "keywords": [
+    "查看大图"
+  ],
+  "author": "mark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mark5566/react-native-image-browser/issues"
+  },
+  "homepage": "https://github.com/mark5566/react-native-image-browser#readme",
+  "dependencies": {
+    "react-native-image-zoom-viewer": "^2.2.26"
+  }
+}
